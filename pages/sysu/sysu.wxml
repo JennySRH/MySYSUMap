@@ -1,0 +1,6 @@
+<view class='index'>
+<image mode='widthFix' src='../../utils/graph.jpg' bindtouchstart='touchStartHandle' bindtouchmove='touchMoveHandle' bindload='load' style="width: {{ touch.scaleWidth }}px;height: {{ touch.scaleHeight }}px"></image>
+<!-- <image src="../../utils/graph.jpg" mode="widthFix" class='in-image'>   -->
+<!-- </image>  -->
+</view>
+

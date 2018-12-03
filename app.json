@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/switchcity/switchcity",
+    "pages/pathquery/pathquery",
+    "pages/introduction/introduction",
+    "pages/map/map",
+    "pages/sysu/sysu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#689F38",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "top",
+    "backgroundColor": "#689F38",
+    "color": "#DCEDC8",
+    "selectedColor": "#DCEDC8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/introduction/introduction",
+        "text": "景点详情"
+      },
+      {
+        "pagePath": "pages/map/map",
+         "text": "地图"
+      },
+      {
+        "pagePath": "pages/sysu/sysu",
+        "text": "SYSUMap"
+      }
+    ]
+  }
+}

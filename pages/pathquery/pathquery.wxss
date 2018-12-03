@@ -1,0 +1,33 @@
+
+.index {
+  min-height: 100vh;
+  background-color: #8BC34A;
+  text-align: center;
+  padding: 50rpx 100rpx;
+  font-size: 20px;
+  color: white;
+}
+
+.crossingview,.carview{
+  border: 2rpx solid #3c69ef;
+  border-radius: 20px;
+  width: 350rpx;
+  margin: 40rpx auto 0 auto;
+  padding: 20rpx 40rpx;
+  background-color: #3c69ef;
+}
+
+
+.crossing,.car {
+  border: 2rpx solid #FF5252;
+  border-radius: 20px;
+  width: 300rpx;
+  margin: 20rpx auto 0 auto;
+  padding: 20rpx 40rpx;
+  background-color: #FF5252;
+}
+
+.space {
+  height: 30px;
+}
+

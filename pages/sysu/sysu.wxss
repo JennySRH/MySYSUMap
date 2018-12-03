@@ -1,0 +1,11 @@
+.index {
+
+  background-color: #8BC34A;
+
+}
+
+.in-image{
+   justify-content: center;        
+   align-items:center; 
+
+}

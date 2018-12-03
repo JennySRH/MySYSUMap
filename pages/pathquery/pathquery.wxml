@@ -1,0 +1,12 @@
+<view class="index">
+<view class="start">起点：{{start}}</view>
+<br/>
+<view class="end">终点：{{end}}</view>
+  <view class="crossingview">步行路线总距离：{{crossingdistance}}</view>
+  <view class="crossing">路线：{{pathstring}}</view>
+
+  <view class="space"></view>
+
+  <view class="carview">开车路线总距离：{{cardistance}}</view>
+  <view class="car">路线：{{carpathstring}}</view>
+</view>

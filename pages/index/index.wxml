@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="index">
+    <text>点击选择起点</text>
+    <navigator class="location" url="../switchcity/switchcity">{{location}}</navigator>
+    <view id="space"></view>
+      <text>点击选择终点</text>
+    <navigator class="location" url="../switchcity/switchcity?id={{currentPos}}">{{location2}}</navigator>
+        <view id="space"></view>
+<navigator class="location" url="../pathquery/pathquery?from={{location}}&to={{location2}}">路径查询</navigator>
+
+</view>
+<!-- <canvas style="width: 300px; height: 800px;" canvas-id="myCanvas">
+<button class="pos" id="north" bindtap='northGate'>北门牌坊</button>
+</canvas>
+<view>纬度：{{latitude}}</view>
+<view>经度：{{longitude}}</view>
+<view>位置：{{position}}</view>
+<button bindtap="GPSsubmit" type="primary">定位</button> -->

@@ -1,0 +1,8 @@
+<view class="index">
+<text>点击选择景点</text>
+    <navigator class="location" url="../switchcity/switchcity?id2=introduction">{{location}}</navigator>
+    <view class="image-container">
+<image src="{{imageUrl}}"></image>     
+    </view>
+<view class="introduction">{{info}}</view>
+</view>
