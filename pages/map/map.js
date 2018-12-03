@@ -59,10 +59,8 @@ Page({
             cost: '打车约' + parseInt(data.taxi_cost) + '元'
           });
         }
-
       },
       fail: function (info) {
-
       }
     })
   },
@@ -136,12 +134,12 @@ Page({
     });
   },
   changeMarkerColor: function (data, i) {
-    var that = this;
-    var markers = [];
-    markers.push(data[j]);
-    that.setData({
-      markers: markers
-    });
+    // var that = this;
+    // var markers = [];
+    // markers.push(data[i]);
+    // that.setData({
+    //   markers: markers
+    // });
   },
   makertap: function (e) {
     var id = e.markerId;

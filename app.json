@@ -5,7 +5,18 @@
     "pages/pathquery/pathquery",
     "pages/introduction/introduction",
     "pages/map/map",
-    "pages/sysu/sysu"
+    "pages/sysu/sysu",
+    "pages/amap/amap",
+    "pages/regeo/regeo",
+    "pages/weather/weather",
+    "pages/poi/poi",
+    "pages/staticmap/staticmap",
+    "pages/navigation_car/navigation",
+    "pages/inputtips/input",
+    "pages/routes/routes",
+    "pages/inputtip/inputtip",
+    "pages/info/info"
+        
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,12 +39,16 @@
         "text": "景点详情"
       },
       {
-        "pagePath": "pages/map/map",
-         "text": "地图"
-      },
-      {
         "pagePath": "pages/sysu/sysu",
         "text": "SYSUMap"
+      },
+      {
+        "pagePath": "pages/amap/amap",
+        "text": "高德导航"
+      },
+      {
+        "pagePath": "pages/navigation_car/navigation",
+        "text": "路径规划"
       }
     ]
   }
